@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My App1</string>
+    <string name="app_Movie">Movie</string>
+    <string name="backdrop">backdrop</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1F273A"
+
+        />/
+    <stroke
+        android:width="0dp"
+        android:color="#ffffff" />
+    <corners android:radius="10dp" />
+    <!-- android:color = Ripple Effect의 색깔 좀 반투명으로 나온다 -->
+
+</shape>
