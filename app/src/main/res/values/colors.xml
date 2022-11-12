@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="movieMain">#17181E</color>
     <color name="bookMain">#0E5E6F</color>
+    <color name="performanceMain">#F50057</color>
 </resources>

@@ -35,6 +35,10 @@
             android:theme="@style/Theme.MaterialComponents.Dialog"
             >
         </activity>
+        <activity android:name=".performance.PerformanceActivity"
+            android:theme="@style/Theme.MyApp1.Performance"
+            >
+        </activity>
     </application>
 
 </manifest>

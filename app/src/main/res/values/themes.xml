@@ -22,5 +22,8 @@
     <style name="Theme.MyApp1.Book" parent="Theme.MyApp1">
         <item name="android:statusBarColor">@color/bookMain</item>
     </style>
+    <style name="Theme.MyApp1.Performance" parent="Theme.MyApp1">
+        <item name="android:statusBarColor">@color/performanceMain</item>
+    </style>
 
 </resources>
