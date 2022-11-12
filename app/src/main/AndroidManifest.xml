@@ -26,8 +26,14 @@
             android:name=".movie.MovieActivity"
             android:theme="@style/Theme.MyApp1.Movie">
         </activity>
-        <activity android:name=".book.BookActivity">
-
+        <activity
+            android:name=".book.BookActivity"
+            android:theme="@style/Theme.MyApp1.Book">
+        </activity>
+        <activity
+            android:name=".book.BookDetails"
+            android:theme="@style/Theme.MaterialComponents.Dialog"
+            >
         </activity>
     </application>
 

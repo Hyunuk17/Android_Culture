@@ -18,9 +18,9 @@
 
     <style name="Theme.MyApp1.Movie" parent="Theme.MyApp1">
         <item name="android:statusBarColor" >@color/movieMain</item>
-
-
-
+    </style>
+    <style name="Theme.MyApp1.Book" parent="Theme.MyApp1">
+        <item name="android:statusBarColor">@color/bookMain</item>
     </style>
 
 </resources>

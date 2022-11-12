@@ -16,12 +16,11 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
         binding =ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        binding.MovieButton.setOnClickListener {
+        binding.movieButton.setOnClickListener {
             val intent = Intent(this, MovieActivity::class.java)
             startActivity(intent)
         }
-        binding.BookButton.setOnClickListener{
+        binding.bookButton.setOnClickListener{
                 val intent = Intent(this, BookActivity::class.java)
                 startActivity(intent)
             }

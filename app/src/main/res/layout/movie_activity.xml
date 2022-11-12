@@ -17,7 +17,6 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#17181E"
 
             android:outlineProvider="none"
             android:textAlignment="viewEnd"
@@ -36,7 +35,9 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/backdrop"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/movie_background" />
+                android:tintMode="src_over"
+                app:srcCompat="@drawable/movie_background"
+                app:tint="#4D000000" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/movieToolbar"

@@ -12,15 +12,16 @@
 
         android:layout_width="match_parent"
         android:layout_height="230dp"
+        android:background="#0E5E6F"
         android:textAlignment="center">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:textAlignment="center"
             app:collapsedTitleTextColor="#FFFFFF"
-
-            app:contentScrim="?attr/colorPrimary"
+            app:contentScrim="#0E5E6F"
             app:expandedTitleGravity="center"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Display2"
             app:expandedTitleTextColor="#FFFFFF"
@@ -34,7 +35,9 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/backdrop"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/book_background" />
+                android:tintMode="src_over"
+                app:srcCompat="@drawable/book_background"
+                app:tint="#4D000000" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/bookToolbar"
@@ -52,8 +55,14 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/book_recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#FFEFD6"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp" />
     </androidx.core.widget.NestedScrollView>
 
 

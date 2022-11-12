@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_rowWeight="2"
+    android:layout_columnWeight="1"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="4"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_weight="1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_weight="1">
+
+    <ImageView
+        android:id="@+id/bookDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_weight="2"
+        android:background="#f1f5f8"
+        android:contentDescription="image"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/harry_potter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="50dp"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/bookDetailTItle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:clickable="true"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="@string/app_name"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bookDetailAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:clickable="true"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="author"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bookDetailPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:clickable="true"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="publisher"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bookDetailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:clickable="true"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="date"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bookDetailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:clickable="true"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="price"
+            android:textColor="#4c4c4c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/moreInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book_ripple_effect"
+            android:elevation="1dp"
+            android:gravity="bottom|end"
+            android:padding="3dp"
+            android:text="더보기"
+            android:textColor="#4c4c4c"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
