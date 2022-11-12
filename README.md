@@ -8,3 +8,6 @@
   : RecyclerView를 GridLayout과 CardView를 이용하여 디자인<br>
   : Dialog를 이용하여 Item 클릭 시 액티비티를 Popup화면으로 구성<br>
 - Performance<br>
+  : Fragment를 이용하여 한 페이지에 한 이미지만 나타나도록 설정<br>
+  : ViewPager2를 이용하여 좌우 스크롤 가능한 Fragment 형태로 구성<br>
+  : ViewPager의 setPageTransformer 함수를 통해 각 Fragment 미리보기 가능한 형태로 디자인<br>
